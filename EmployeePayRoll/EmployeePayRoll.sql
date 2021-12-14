@@ -12,3 +12,11 @@ create table employee_payroll
 )
 
 
+--UC3-Creating Employee Payroll Data
+insert into employee_payroll (Emp_name,salary,start) values
+	('venu',598722.00,'2021-12-12'),
+	('gopal',586649.00,'2011-04-04'),
+	('reddy',753575.00,'2020-03-03'),
+	('ABc',159159.00,'2009-02-02')
+
+
