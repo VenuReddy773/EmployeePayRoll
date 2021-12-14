@@ -27,3 +27,12 @@ select * from employee_payroll
 select salary from employee_payroll where Emp_name = 'gopal'
 select * from employee_payroll
 where start between cast('2019-02-03' as date) and getdate();
+
+--UC6-Alter Table 
+alter table employee_payroll add gender char(1) 
+update employee_payroll set gender = 'M' where Emp_name ='venu'
+update employee_payroll set gender = 'F' where Emp_name ='ABc'
+update employee_payroll set gender = 'M' where Emp_name ='reddy' or Emp_name='gopal'
+
+
+
