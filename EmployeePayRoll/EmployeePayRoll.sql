@@ -51,6 +51,14 @@ select count(gender) from employee_payroll where gender='M' group by gender
 select count(gender) from employee_payroll where gender='F' group by gender
 
 
+--UC8-Extending Table
+alter table employee_payroll
+add EmployeePhone varchar(20) not null default 'not Present'
+alter table employee_payroll
+add EmployeeAddress varchar(100) default 'not Provided'
+alter table employee_payroll
+add EmployeeDepartment varchar(100) not null default 'not provided'
+
 
 
 
