@@ -20,3 +20,5 @@ insert into employee_payroll (Emp_name,salary,start) values
 	('ABc',159159.00,'2009-02-02')
 
 
+--UC4-Retrieve Data From Table
+select * from employee_payroll 
