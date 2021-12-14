@@ -22,3 +22,8 @@ insert into employee_payroll (Emp_name,salary,start) values
 
 --UC4-Retrieve Data From Table
 select * from employee_payroll 
+
+--UC5-Selceted Data Retrievel
+select salary from employee_payroll where Emp_name = 'gopal'
+select * from employee_payroll
+where start between cast('2019-02-03' as date) and getdate();
